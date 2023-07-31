@@ -1,0 +1,4 @@
+# Ignore pickle, excel and text files
+*.pkl
+*.xlsx
+*.txt
