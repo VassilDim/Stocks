@@ -148,3 +148,9 @@ scores = grid_search(data, cfg_list, n_test)
 # List top 3 configurations:
 for cfg, error in scores[:3]:
     print (cfg, error)
+
+'''
+[(1, 0, 1), (1, 0, 1, 5), 'ct'] 0.046184592185630854
+[(1, 0, 1), (2, 0, 1, 5), 'ct'] 0.04874532046906347
+[(2, 0, 2), (1, 0, 1, 5), 'ct'] 0.05035231078342537
+'''
